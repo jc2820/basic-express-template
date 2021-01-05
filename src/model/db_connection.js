@@ -11,4 +11,3 @@ const pgp = require("pg-promise")(/* options */);
 const db = pgp(DB_URL);
 
 module.exports = db;
-

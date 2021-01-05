@@ -19,7 +19,7 @@ app.set("views", path.join(__dirname, "views"));
 // Middlewares
 app.use(helmet());
 // app.use(favicon(path.join(__dirname, "..", "public", "img", "skull.png")));
-app.use(express.static(path.join(__dirname,"..","public")));
+app.use(express.static(path.join(__dirname, "..", "public")));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
